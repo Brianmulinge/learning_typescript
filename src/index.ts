@@ -131,6 +131,39 @@ kingdom = "Bacteria";
 //Literal unions are really just union types made up of specific values
 //you can also create a number literal type or a nuion/literal hybrid type using the same syntax
 
+
+//Intersection types
+//-combines several different types into a single supertype that include members from all participating types
+interface Skier {
+  slide(): void;
+ }
+ interface Shooter {
+  shoot(): void;
+ }
+ type Biathelete = Skier & Shooter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Output
 console.log(
   Name,
@@ -147,5 +180,5 @@ console.log(
   hasD,
   types,
   union,
-  kingdom
+  kingdom, Biathelete
 );

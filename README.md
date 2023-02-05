@@ -1,2 +1,2 @@
 # learning_typescript
-Created with CodeSandbox
+learning typescript from scratchs
