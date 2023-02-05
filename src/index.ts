@@ -141,7 +141,8 @@ interface Skier {
   shoot(): void;
  }
  type Biathelete = Skier & Shooter;
-
+//array
+//-To specify an array type, you simply add square brackets after the type name
 
 
 
